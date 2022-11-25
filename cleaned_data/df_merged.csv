@@ -1,4 +1,4 @@
-Period,GDP (Quarterly),CPI (Y-o-Y change),Unemployment rate,S&P 500 index,Monthly Home Price index,Initial Jobless Claim,Core CPI Index,Consumer Credit,Non-farm Payroll,Chicago PMI
+Period,GDP-Quarterly (),CPI (Y-o-Y change),Unemployment rate,S&P 500 index,Monthly Home Price index,Initial Jobless Claim,Core CPI Index,Consumer Credit,Non-farm Payroll,Chicago PMI
 2022-11-01,,,,3888.26301276473,,229000.0,,,,
 2022-10-01,,7.75,3.7,3726.0505154390335,,219000.0,299.47,,261000.0,45.2
 2022-09-01,20021700.0,8.2,3.5,3850.5218021268934,,210250.0,298.66,24980000000.0,263000.0,45.7
