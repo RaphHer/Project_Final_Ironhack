@@ -130,7 +130,6 @@ dmypy.json
 
 # IGNORE THESE FILES
 .env
-.gitignore
 
 /.ipynb_checkpoints/**
 /.git/**
