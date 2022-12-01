@@ -133,3 +133,4 @@ dmypy.json
 
 /.ipynb_checkpoints/**
 /.git/**
+/__pycache__/**

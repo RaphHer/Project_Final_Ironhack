@@ -38,3 +38,11 @@ def clean_df(df_name, column_name):
     df_name[column_name] = df_name[column_name].apply(lambda x: x.strftime('%Y-%m')) # removing the days that we don't need (for the record it was end of the month value)
     df_name[column_name] = pd.to_datetime(df_name[column_name]) # putting back the day so we have beginning of the month everywhere
     return df_name
+
+ def prophet_pred (ticker, date):
+    df = yf.download(ticker, start=date)
+    df = df.reset_index()
+    df [['ds','y']] = df[['Date','Adj Close']]
+    return df
+
+
